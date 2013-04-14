@@ -120,7 +120,7 @@ public class Main {
 			
 			//marshalling, Speicherung in XML
 		    Marshaller ma = jc.createMarshaller();
-		    ma.marshal(r, new File("C://Users/Jusch/git/WBA2/WBA2 Phase1/src/Aufgabe3d.xml"));	    
+		    ma.marshal(r, new File("C://Users/Jusch/git/WBA2/WBA2 Phase1/src/Aufgabe4c.xml"));	    
 		}
 	 
 }

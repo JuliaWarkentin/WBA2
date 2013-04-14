@@ -1,2 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><rezept><rezeptname user="Leen"><rezeptname1>Lenchen's Schokoladenkuchen</rezeptname1></rezeptname><bild user="mrsasterix" url="http://static.chefkoch-cdn.de/ck.de/rezepte/2/2464/8082-960x720-lenchen_s_schokoladenkuchen.jpg"/><bild user="Lari" url="http://static.chefkoch-cdn.de/ck.de/rezepte/2/2464/9090-960x720-lenchen_s_schokoladenkuchen.jpg"/><zutat menge="200" einheit="g" name="Butter"/><zutat menge="200" einheit="g" name="Zucker"/><zutat menge="200" einheit="g" name="Schokolade, Blockschokolade" url="http://www.chefkoch.de/magazin/artikel/105,0/Chefkoch/Schokolade.html"/><zutat menge="120" einheit="g" name="Mehl"/><zutat menge="0.5" einheit="TL" name="Backpulver"/><zutat menge="1" einheit="Pkt." name="Vanillezucker"/><zutat menge="4" name="Eier" url="http://www.chefkoch.de/magazin/artikel/908,0/Chefkoch/Das-Ei-der-heimliche-Kuechenstar-im-Rampenlicht.html"/><zubereitung arbeitszeit="ca 1 Std" schwierigkeitsgrad="normal" brennwertpp="295 kcal"><zubereitungstext>
-		Butter und Schokolade im Wasserbad schmelzen. Eier trennen. Eiweiß steif schlagen. Eigelbe, Zucker und Vanillezucker verrühren. Geschmolzene Butter-Schokomasse hinzufügen und mischen. Mehl mit dem Backpulver in die Masse sieben und zum Schluss die steifen Eiweiße vorsichtig unterheben. In eine gut gefettete Form geben.¶Bei 180°Grad 40 – 50 Minuten backen.</zubereitungstext></zubereitung><kommentar user="swieselchen" datum="2013-07-02" zeit="18:49:00" hilfreich="keine Angabe"><kommentartext>Habe ihn eben gebacken und bin begeistert.Super Rezept:-)¶¶LG Mane</kommentartext></kommentar><kommentar user="Mane" datum="2013-07-01" zeit="15:06:00" hilfreich="keine Angabe"><kommentartext>Habe Deinen Kuchen gestern gebacken (kleine Abwandlung: statt Blockschokolade hatte ich nur Kuvertüre, zartbitter und ich habe noch etwas Rumaroma und eine Prise Salz dazugegeben) mein LAG war total begeistert. Ich übrigends auch, super Rezept. </kommentartext></kommentar><kommentar user="Gay"><kommentartext>Lord</kommentartext></kommentar></rezept>
+<?xml version="1.0"?>
+
+<rezepte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Aufgabe3d.xsd">
+	<rezept>
+		<rezeptname user="Leen" ><rezeptname1>Lenchen&#039;s Schokoladenkuchen</rezeptname1></rezeptname>
+		<bild user="mrsasterix" url="http://static.chefkoch-cdn.de/ck.de/rezepte/2/2464/8082-960x720-lenchen_s_schokoladenkuchen.jpg" />
+		<bild user="Lari" url="http://static.chefkoch-cdn.de/ck.de/rezepte/2/2464/9090-960x720-lenchen_s_schokoladenkuchen.jpg" />
+	
+		<zutat menge="200" einheit="g" name="Butter" />
+		<zutat menge="200" einheit="g" name="Zucker" />
+		<zutat menge="200" einheit="g" name="Schokolade, Blockschokolade" url="http://www.chefkoch.de/magazin/artikel/105,0/Chefkoch/Schokolade.html" />
+		<zutat menge="120" einheit="g" name="Mehl" />
+		<zutat menge="0.5" einheit="TL" name="Backpulver" />
+		<zutat menge="1" einheit="Pkt." name="Vanillezucker" />
+		<zutat menge="4" name="Eier" url="http://www.chefkoch.de/magazin/artikel/908,0/Chefkoch/Das-Ei-der-heimliche-Kuechenstar-im-Rampenlicht.html" />
+
+		<zubereitung arbeitszeit="ca 1 Std" schwierigkeitsgrad="normal" brennwertpp="295 kcal"><zubereitungstext>
+		Butter und Schokolade im Wasserbad schmelzen. Eier trennen. Eiweiß steif schlagen. Eigelbe, Zucker und Vanillezucker verrühren. Geschmolzene Butter-Schokomasse hinzufügen und mischen. Mehl mit dem Backpulver in die Masse sieben und zum Schluss die steifen Eiweiße vorsichtig unterheben. In eine gut gefettete Form geben.&#182;Bei 180°Grad 40 – 50 Minuten backen.</zubereitungstext> 
+		</zubereitung>
+	
+		<kommentar user="swieselchen" datum="2013-07-02" zeit="18:49:00" hilfreich="keine Angabe">  
+		<kommentartext>Habe ihn eben gebacken und bin begeistert.Super Rezept:-)&#182;&#182;LG Mane</kommentartext> 
+		</kommentar>
+		<kommentar user="Mane" datum="2013-07-01" zeit="15:06:00" hilfreich="keine Angabe">
+		<kommentartext>Habe Deinen Kuchen gestern gebacken (kleine Abwandlung: statt Blockschokolade hatte ich nur Kuvertüre, zartbitter und ich habe noch etwas Rumaroma und eine Prise Salz dazugegeben) mein LAG war total begeistert. Ich übrigends auch, super Rezept. </kommentartext>
+		</kommentar>
+	</rezept>
+	
+	<rezept>
+		<rezeptname user="AlexanderPaff" ><rezeptname1>Kaesekuchen</rezeptname1></rezeptname>
+		<bild user="AlexanderPaff" url="kaesekuchen.jpg" />
+		<bild user="AlexanderPaff" url="kaesekuchen2.jpg" />
+	
+		<zutat menge="1" einheit="kg" name="Magerquark" />
+		<zutat menge="6" name="Eier,getrennt" />
+		<zutat menge="300" einheit="g" name="Zucker" />
+		<zutat menge="2" einheit="Pck." name="Puddingpulver" />
+		<zutat name="Butter fuer die Form" />
+
+		<zubereitung arbeitszeit="ca. 20 Min" schwierigkeitsgrad="simpel" brennwertpp="keine Angabe">
+		<zubereitungstext>
+			Quark, Eigelbe, Zucker und Puddingpulver gut verrühren und die sehr steif geschlagenen Eiweiße unterziehen. Diese Masse in eine gut gefettete Springform füllen.&#182;&#182;Eine Stunde bei mittlerer Hitze (ca. 175°C) backen. Den Kuchen aus dem Ofen nehmen und 5 - 10 min. stehen lassen. Zum Auskühlen auf das "Gesicht" legen.</zubereitungstext>
+		</zubereitung>
+	
+		<kommentar user="AlexanderPaff" datum="2013-07-02" zeit="13:37:00" hilfreich="keine Angabe"> 
+		<kommentartext>Kuchen. Ololololol!!!!11 </kommentartext>
+		</kommentar>
+		<kommentar user="AlexanderPaff" datum="2013-07-01" zeit="08:00:00.85" hilfreich="keine Angabe"> 
+		<kommentartext>Lecker.</kommentartext>
+		</kommentar>
+	</rezept>
+</rezepte>

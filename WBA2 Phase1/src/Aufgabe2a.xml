@@ -26,7 +26,7 @@
 		<email>sabinehansen@web.de</email>
 		<geburtsdatum>03.03.1990</geburtsdatum>
 		<erfahrung erfahrung="Fortgeschrittener" />
-		<schlagzeug schlagzeug="vorhanden" />
+		<schlagzeug schlagzeug="vorhanden"/>
 	</person>
 
 </gruppenanmeldung>

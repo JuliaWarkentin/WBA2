@@ -30,7 +30,7 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;attribute name="name" use="required" type="{}zutatentyp" />
  *       &lt;attribute name="url" type="{http://www.w3.org/2001/XMLSchema}string" />
  *     &lt;/restriction>
- *   &lt;/complexContent>
+ *   &lt;/complexContent> 
  * &lt;/complexType>
  * </pre>
  * 

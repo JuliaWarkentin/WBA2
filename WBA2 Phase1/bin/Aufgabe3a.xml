@@ -11,7 +11,7 @@
 		<zutat menge="200" einheit="g" name="Schokolade, Blockschokolade" url="http://www.chefkoch.de/magazin/artikel/105,0/Chefkoch/Schokolade.html" />
 		<zutat menge="120" einheit="g" name="Mehl" />
 		<zutat menge="1/2" einheit="TL" name="Backpulver" />
-		<zutat menge="1" einheit="Pkt." name="Vanillezucker" />
+		<zutat menge="1" einheit="Pkt." name="Vanillezucker"/>
 		<zutat menge="4" name="Ei(er)" url="http://www.chefkoch.de/magazin/artikel/908,0/Chefkoch/Das-Ei-der-heimliche-Kuechenstar-im-Rampenlicht.html" />
 
 		<zubereitung arbeitszeit="ca 1 Std" schwierigkeitsgrad="normal" brennwertpp="295 kcal">
