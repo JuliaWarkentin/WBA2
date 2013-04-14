@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<gruppenanmeldung>
+	<gruppenleiter>
+		<vorname>Paul</vorname>
+		<nachname>Schmidt</nachname>
+		<email>paulschmidt@gmx.de</email>
+		<geburtsdatum>01.01.1986</geburtsdatum>
+		<erfahrung erfahrung="Profi"/>
+		<schlagzeug schlagzeug="vorhanden"/>
+		<anmerkungen>Wir rocken!</anmerkungen>
+	</gruppenleiter>
+	
+	<person>
+		<vorname>Stefan</vorname>
+		<nachname>Hummel</nachname>
+		<email>stefanhummel@hotmail.de</email>
+		<geburtsdatum>02.02.1988</geburtsdatum>
+		<erfahrung erfahrung="Amateur" />
+		<schlagzeug schlagzeug="nicht vorhanden"/>
+	</person>
+
+	<person>
+		<vorname>Sabine</vorname>
+		<nachname>Hansen</nachname>
+		<email>sabinehansen@web.de</email>
+		<geburtsdatum>03.03.1990</geburtsdatum>
+		<erfahrung erfahrung="Fortgeschrittener" />
+		<schlagzeug schlagzeug="vorhanden" />
+	</person>
+
+</gruppenanmeldung>

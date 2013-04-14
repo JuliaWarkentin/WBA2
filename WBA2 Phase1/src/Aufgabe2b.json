@@ -1,0 +1,43 @@
+{
+    gruppenanmeldung:{
+        gruppenleiter:{
+            vorname:'Paul',
+            nachname:'Schmidt',
+            email:'paulschmidt@gmx.de',
+            geburtsdatum:'01.01.1986',
+            erfahrung:{
+                erfahrung:'Profi'
+            },
+            schlagzeug:{
+                schlagzeug:'vorhanden'
+            },
+            anmerkungen:'Wir rocken!'
+        },
+        person:[
+            {
+                vorname:'Stefan',
+                nachname:'Hummel',
+                email:'stefanhummel@hotmail.de',
+                geburtsdatum:'02.02.1988',
+                erfahrung:{
+                    erfahrung:'Amateur'
+                },
+                schlagzeug:{
+                    schlagzeug:'nicht vorhanden'
+                }
+            },
+            {
+                vorname:'Sabine',
+                nachname:'Hansen',
+                email:'sabinehansen@web.de',
+                geburtsdatum:'03.03.1990',
+                erfahrung:{
+                    erfahrung:'Fortgeschritener'
+                },
+                schlagzeug:{
+                    schlagzeug:'vorhanden'
+                }
+            }
+        ]
+    }
+}

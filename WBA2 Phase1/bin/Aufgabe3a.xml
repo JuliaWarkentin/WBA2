@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<rezepte >
+	<rezept>
+		<rezeptname user="Leen" >Lenchen&#039;s Schokoladenkuchen</rezeptname>
+		<bild user="mrsasterix" url="http://static.chefkoch-cdn.de/ck.de/rezepte/2/2464/8082-960x720-lenchen_s_schokoladenkuchen.jpg" />
+		<bild user="Lari" url="http://static.chefkoch-cdn.de/ck.de/rezepte/2/2464/9090-960x720-lenchen_s_schokoladenkuchen.jpg" />
+	
+		<zutat menge="200" einheit="g" name="Butter" />
+		<zutat menge="200" einheit="g" name="Zucker" />
+		<zutat menge="200" einheit="g" name="Schokolade, Blockschokolade" url="http://www.chefkoch.de/magazin/artikel/105,0/Chefkoch/Schokolade.html" />
+		<zutat menge="120" einheit="g" name="Mehl" />
+		<zutat menge="1/2" einheit="TL" name="Backpulver" />
+		<zutat menge="1" einheit="Pkt." name="Vanillezucker" />
+		<zutat menge="4" name="Ei(er)" url="http://www.chefkoch.de/magazin/artikel/908,0/Chefkoch/Das-Ei-der-heimliche-Kuechenstar-im-Rampenlicht.html" />
+
+		<zubereitung arbeitszeit="ca 1 Std" schwierigkeitsgrad="normal" brennwertpp="295 kcal">
+			Butter und Schokolade im Wasserbad schmelzen. Eier trennen. Eiweiß steif schlagen. Eigelbe, Zucker und Vanillezucker verrühren. Geschmolzene Butter-Schokomasse hinzufügen und mischen. Mehl mit dem Backpulver in die Masse sieben und zum Schluss die steifen Eiweiße vorsichtig unterheben. In eine gut gefettete Form geben.&#182;Bei 180°Grad 40 – 50 Minuten backen. 
+		</zubereitung>
+	
+		<kommentar user="swieselchen" datum="07.02.2002" zeit="18:49" hilfreich="keine Angabe">Habe Deinen Kuchen gestern gebacken (kleine Abwandlung: statt Blockschokolade hatte ich nur Kuvertüre, zartbitter und ich habe noch etwas Rumaroma und eine Prise Salz dazugegeben) mein LAG war total begeistert. Ich übrigends auch, super Rezept. </kommentar>
+		<kommentar user="Mane" datum="07.01.2003" zeit="15:06" hilfreich="keine Angabe">Habe ihn eben gebacken und bin begeistert.Super Rezept:-)&#182;&#182;LG Mane </kommentar>
+	</rezept>
+
+</rezepte>

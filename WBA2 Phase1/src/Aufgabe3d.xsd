@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="rezepte">
+		<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="rezept" maxOccurs="unbounded"/>
+		</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="rezept" >
+			<xs:complexType>
+			<xs:sequence>
+			<xs:element ref="rezeptname" />
+			<xs:element ref="bild" maxOccurs="unbounded" />
+			<xs:element ref="zutat" maxOccurs="unbounded" />
+			<xs:element ref="zubereitung" />
+			<xs:element ref="kommentar" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="rezeptname">
+		<xs:complexType>
+		<xs:sequence>
+		<xs:element name="rezeptname1" type="xs:string" />
+		</xs:sequence>
+		<xs:attribute name="user" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="bild">
+		<xs:complexType>
+		<xs:attribute name="user" type="xs:string" use="required" />
+		<xs:attribute name="url" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="zutat">
+		<xs:complexType>
+		<xs:attribute name="menge" type="xs:decimal"/>
+		<xs:attribute name="einheit" type="einheittyp"/>
+		<xs:attribute name="name" type="zutatentyp" use="required"/>
+		<xs:attribute name="url" type="xs:string" />
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:simpleType name="einheittyp">
+		<xs:restriction base="xs:string">
+		<xs:pattern value="g|(kg)|(TL)|(ES)|L|(mL)|(cL)|(Tassen?)|(Prisen?)|(Messerspitzen?)|(Dutzend)|(Pck.)|(Pkt.)" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="zutatentyp">
+		<xs:restriction base="xs:string">
+		<xs:pattern value="(Mehl)|(Zucker)|(Milch)|(Vanillezucker)|(Butter)|(Ei(er)?)|(Eier,getrennt)|(Puddingpulver)|(Magerquark)|(Butter fuer die Form)|(Schokolade, Blockschokolade)|(Backpulver)" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:element name="zubereitung">
+		<xs:complexType>
+		<xs:sequence>
+		<xs:element name="zubereitungstext" type="xs:string" />
+		</xs:sequence>
+		<xs:attribute name="arbeitszeit" type="xs:string" default="keine Angabe" />
+		<xs:attribute name="schwierigkeitsgrad" type="schwierigkeitsgradtyp" />
+		<xs:attribute name="brennwertpp" type="xs:string" default="keine Angabe" />
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:simpleType name="schwierigkeitsgradtyp">
+	<xs:restriction base="xs:string">
+	<xs:pattern value="(simpel)|(normal)|(pfiffig)"/>
+	</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:element name="kommentar">
+		<xs:complexType>
+		<xs:sequence>
+		<xs:element name="kommentartext" type="xs:string" />
+		</xs:sequence>
+		<xs:attribute name="user" type="xs:string" use="required"/>
+		<xs:attribute name="datum" type="xs:date" use="required"/>
+		<xs:attribute name="zeit" type="xs:time" use="required"/>
+		<xs:attribute name="hilfreich" type="xs:string" default="keine Angabe" />
+		</xs:complexType>
+	</xs:element>
+	
+</xs:schema>
+
